@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home Page.</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mainStyle.css'>
+    <script src='main.js'></script>
+
+
+</head>
+<body>
+    <div id="main">
+            <button id="closes" onclick="self.close()">X</button>
+        <h1 id="header">Welcome to CodeTribe.</h1>
+       
+        <p>
+            <ul>
+                <li>CodeTribe Campus is located in Tembisa under MLab Africa projects.</li>
+                <li>They form part of eKasiLab project for local communities in Gauteng. </li>
+                <li>We got three campuses in gauteng provice Soweto, Pretoria and Tembisa.</li>
+            </ul>
+            <img src="CodeTribe-logo.jpg" alt="CodeTribe" width="800px" height="500px"/><br>
+            
+            <div id="myform">
+                <fieldset><legend><span id="formINf">Student Application Information.</span></legend>
+            <script LANGUAGE="JavaScript">
+                    function getMyForm(){
+                        var indx = document.URL.indexOf('?');
+                        var formInput = new Array();
+                        if (indx != -1){
+                            var pairs = document.URL.substring(indx + 1, document.URL.length).split('&');
+                            for(var i=0; i<pairs.length; i++)
+                            {
+                                nameVal = pairs[i].split('=');
+                                formInput [nameVal[0]] = nameVal[1];
+                            }
+                        }
+                        return formInput ;
+                    }
+                    formInput  = getMyForm();
+                    name = unescape(formInput ["name"]);
+                    surname = unescape(formInput ["surname"]);
+                    age = unescape(formInput ["age"]);
+                    gender = unescape(formInput ["gender"]);
+                    email = unescape(formInput ["email"]);
+ 
+                    document.write("Name : " + name + "<br>");
+                    document.write("Surname : " +surname+"<br>");
+                    document.write("Age : " + age + "<br>" );
+                    document.write("Gender : "+gender+"<br>");
+                    document.write("Email : "+email+"<br>");
+ 
+     </script>
+     </fieldset>
+            </div>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* my register styling */
+#main-page {
+    width: 100%;
+    height: 980px;
+    background-color:burlywood;
+    border: solid 5px;
+ }
+
+ fieldset{
+     background-color: bisque;
+     border: 3px solid black;
+     border-radius: 10px;
+     padding: 10px 5px 5px 5px;
+ }
+
+ form{
+     padding: 50px;
+ }
+ button{
+    background-color: skyblue;
+    cursor: pointer;
+    margin: 4px 5px 4px 3px;
+    padding-left: 6px;
+
+ }
+
+ #heading{
+     text-align: center;
+ }
+ #details{
+     font-weight: bolder;
+
+ }
+
+ /* my login styling */
+ #main{
+    width: 100%;
+    height: 980px;
+    background-color:burlywood;
+    border: solid 5px;
+}
+
+#inf{
+    font-weight: bold;
+}
+botton{
+    background-color: skyblue;
+    cursor: pointer;
+    margin: 4px 5px 4px 3px;
+    padding-left: 6px;
+}
+
+#headings{
+    text-align: center;
+}
+
+/* LoadingPage styling sec */
+#main-sec {
+    width: 100%;
+    height: 980px;
+    background-color:burlywood;
+    border: solid 10px;
+  }
+#main-sec h2{
+    margin-left: 10px;
+}
+#style img{
+    padding-left: 50px;
+    padding-top: 10px;
+    border-radius: 500px 500px;
+}
+
+#header{
+    text-align: center;
+}
+button{
+    background-color: skyblue;
+    /*border: solid black 1px;*/
+    cursor: pointer;
+    margin: 4px 5px 4px 3px;
+    padding-left: 6px;
+}
+
+#section{
+    margin-left: 10px;
+}
+/* my Home page styling sec */
+#maine{
+    width: 100%;
+    height: 980px;
+    background-color:burlywood;
+    border: solid 5px;
+}
+
+img{
+  padding-left: 50px;
+
+}
+
+#header{
+   text-align: center;
+}
+
+#formINf{
+    font-weight: bold;
+}
+#closes{
+    background-color: grey;
+    cursor: pointer;
+    float: right;
+    margin: 4px 5px 4px 3px;
+}

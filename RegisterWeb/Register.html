@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mainStyle.css'>
+    <script src='main.js'>
+    </script>
+</head>
+    <body>
+        <div id="main-page">
+                <button id="closes" onclick="self.close()">X</button>
+            <h1 id="heading">Register Page.</h1>
+
+           <form type=get action="Home.html" >
+               <fieldset>
+                   <legend><span id="details">CodeTribe_Register.</span></legend>
+                Name :<br><input type="text" name="name" placeholder="fana"><br>
+                Surname :<br><input type="text" name="surname" placeholder="mothoa"><br>
+                Age : <br><input type="text" name="age" placeholder="31" ><br>
+                Gender <br>
+                <input type="radio" name="gender" value="male" checked>Male<br>
+                <input type="radio" name="gender" value="female" > Female<br>
+                <input type="radio" name="gender" value="others">Others<br>
+                Email :<br><input type="text" name="email" placeholder="fanamoore@gmail.com"><br>
+                Password :<br><input type="password" name="passwrd" maxlength="8" placeholder="*********"><br>
+                <input type="submit" value="Submit"
+                </fieldset>
+           </form>
+        </div>
+             
+    </body>
+</html>
